@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num = 25;
+
+    if (num > 10 && num < 50) {
+        printf("%d is between 10 and 50\n", num);
+    } else {
+        printf("%d is not in the range\n", num);
+    }
+
+    return 0;
+}
